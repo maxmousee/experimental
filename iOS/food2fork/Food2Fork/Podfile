@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target ‘Food2Fork’ do
+    pod 'Alamofire', '~> 4.3'
+    pod 'Kingfisher', '~> 3.0'
+
+    target 'Food2ForkTests' do
+      pod 'KIF', '~> 3.0', :configurations => ['Debug']
+    end
+end

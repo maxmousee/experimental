@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.3.0)
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - Kingfisher (3.3.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - KIF (~> 3.0)
+  - Kingfisher (~> 3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
+
+PODFILE CHECKSUM: 7d7c32f9d872cc97e1d0be9389f5b1e347e1ddda
+
+COCOAPODS: 1.2.0

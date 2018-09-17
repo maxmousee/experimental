@@ -8,8 +8,8 @@
     
             /* Styling needed for a fullscreen canvas and no scrollbars. */
             body, html { 
-            width: 100%;
-            height: 100%;
+            width: 800px;
+            height: 600px;
             margin: 0;
             padding: 0;
             overflow: hidden;
@@ -25,6 +25,7 @@
             }
             #gamecontainer {
                 width: 800px;
+                height: 600px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -32,23 +33,12 @@
                 width: 800px;
                 height: 600px;
             }
-            #info {
-                width: 800px;
-                margin-left: auto;
-                margin-right: auto;
-            }
         </style>
     </head>
     <body>
         <div id="starfield"></div>
         <div id="gamecontainer">
-        <canvas id="gameCanvas" width="800" height="600"></canvas>
-        </div>
-        <div id="info">
-            <p>Move with arrow keys, fire with the space bar. The invaders get faster and drop
-                more bombs as you complete each level!</p>
-                <p><a id="muteLink" href="#" onclick="toggleMute()">mute</a> | 
-                    <a href="http://github.com/maxmousee/spaceinvaders">spaceinvaders on github</a></p>
+                <canvas id="gameCanvas"></canvas>
         </div>
 
         <script src="starfield.js"></script>

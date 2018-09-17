@@ -21,8 +21,8 @@ Starfield.prototype.initialise = function(div) {
 
 	//	Store the div.
 	this.containerDiv = div;
-	self.width = window.innerWidth;
-	self.height = window.innerHeight;
+	self.width = 800;
+	self.height = 600;
 
 	window.onresize = function(event) {
 		self.width = window.innerWidth;
